@@ -1,0 +1,23 @@
+html {
+    font-family: sans-serif;
+    background-color: black;
+    color: red;
+}
+
+
+nav {
+    background-color: lightgray;
+    display: flex;
+    align-items: left;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+button{
+    background-color: transparent;
+    font-size: 200%;
+    font-weight: bold;
+    color: blue;
+    padding: 5%;
+    justify-content: left;
+}

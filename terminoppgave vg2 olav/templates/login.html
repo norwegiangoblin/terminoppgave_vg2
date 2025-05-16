@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Login</h1>
+
+{% if current_user %}
+    <p>Du er logget in</p>
+
+{% else %}
+
+<form action="/login" method="POST">
+    <label for="username">Username</label>
+    <input type="text" name="username">
+    <label for="password">Password</label>
+    <input type="password" name="password">
+    <button type="submit">submit</button>
+</form>
+
+{% endif %}
+
+{% endblock %}
